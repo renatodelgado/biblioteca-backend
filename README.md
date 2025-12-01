@@ -12,20 +12,20 @@ utilizando **Node.js**, **TypeScript**, **Express** e **TypeORM**, com
 
 ## Tecnologias Utilizadas
 
--   **Linguagem:** TypeScript\
--   **Runtime:** Node.js\
--   **Servidor:** Express\
--   **ORM:** TypeORM\
--   **Banco de Dados:** PostgreSQL (Supabase)\
+-   **Linguagem:** TypeScript
+-   **Runtime:** Node.js
+-   **Servidor:** Express
+-   **ORM:** TypeORM
+-   **Banco de Dados:** PostgreSQL (Supabase)
 -   **Principais dependências:**
-    -   `express`\
-    -   `typeorm`\
-    -   `pg`\
-    -   `reflect-metadata`\
-    -   `cors`\
+    -   `express`
+    -   `typeorm`
+    -   `pg`
+    -   `reflect-metadata`
+    -   `cors`
 -   **Ferramentas de desenvolvimento:**
-    -   `tsx` (modo watch)\
-    -   `typescript`\
+    -   `tsx` (modo watch)
+    -   `typescript`
     -   `ts-node-dev`
 
 ------------------------------------------------------------------------
@@ -50,16 +50,16 @@ A conexão é configurada via variáveis de ambiente. Para usar o Supabase, copi
 
 ### Variáveis de Ambiente
 
-  Variável            Descrição
-  ------------------- ---------------------------------------------
-  `DB_HOST`           Host do banco (ex.: `db.xxxxx.supabase.co`)
-  `DB_PORT`           Porta (padrão: `5432`)
-  `DB_USER`           Usuário do banco
-  `DB_PASSWORD`       Senha do banco
-  `DB_NAME`           Nome do database
-  `DB_SSL`            `true`/`false` para habilitar SSL
-  `TYPEORM_SYNC`      Sincroniza entidades automaticamente
-  `TYPEORM_LOGGING`   Ativa logs do TypeORM
+| Variável          | Descrição                                      |
+|-------------------|------------------------------------------------|
+| `DB_HOST`         |  Host   do banco (ex.: `db.xxxxx.supabase.co`) |
+| `DB_PORT`         | Porta (padrão: `5432`)                         |
+| `DB_USER`         | Usuário do banco                               |
+| `DB_PASSWORD`     | Senha do banco                                 |
+| `DB_NAME`         | Nome do database                               |
+| `DB_SSL`          | `true`/`false` para habilitar SSL              |
+| `TYPEORM_SYNC`    | Sincroniza entidades automaticamente           |
+| `TYPEORM_LOGGING` | Ativa logs do TypeORM                          |
 
 ------------------------------------------------------------------------
 
@@ -90,13 +90,13 @@ entidade **Livro**.
 
 Exemplo de rotas:
 
-  Método   Rota            Descrição
-  -------- --------------- -----------------------
-  GET      `/livros`       Lista todos os livros
-  GET      `/livros/:id`   Obtém um livro
-  POST     `/livros`       Cadastra um livro
-  PUT      `/livros/:id`   Atualiza um livro
-  DELETE   `/livros/:id`   Remove um livro
+| Método | Rota           | Descrição               |
+|--------|----------------|-------------------------|
+| GET    | `/livros`      | Lista todos os livros   |
+| GET    | `/livros/:id`  | Obtém um livro          |
+| POST   | `/livros`      | Cadastra um livro       |
+| PUT    | `/livros/:id`  | Atualiza um livro       |
+| DELETE | `/livros/:id`  | Remove um livro         |
 
 ------------------------------------------------------------------------
 
@@ -104,20 +104,21 @@ Exemplo de rotas:
 
 Use ferramentas como:
 
--   Postman\
--   Insomnia\
--   Thunder Client (VSCode)\
+-   Postman
+-   Insomnia
+-   Thunder Client (VSCode)
 -   `curl` no terminal
+-   App frontend criado com React Native e Expo Go, também presente no meu repositório
 
 Servidor roda por padrão em:
 
-    http://localhost:3333
+http://localhost:3333
 
 ------------------------------------------------------------------------
 
 ## Créditos
 
-Trabalho desenvolvido por Renato Delgado, curso de Análise e Desenvolvimento de Sistemas (Faculdade Senac Pernambuco) para as unidades curriculares:
+Trabalho desenvolvido por **Renato Delgado**, estudante do 3° período do curso de Análise e Desenvolvimento de Sistemas (Faculdade Senac Pernambuco) para as unidades curriculares:
 
--   **Coding Mobile** --- Prof. Geraldo Júnior\
+-   **Coding Mobile** --- Prof. Geraldo Júnior
 -   **Arquitetura e Desenvolvimento de Backend** --- Prof. Danilo Farias
