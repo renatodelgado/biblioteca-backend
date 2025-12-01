@@ -63,7 +63,7 @@ A conexão é configurada via variáveis de ambiente. Para usar o Supabase, copi
 
 ------------------------------------------------------------------------
 
-## ▶️ Executando o Projeto
+## Executando o Projeto
 
 ### **Pré‑requisitos**
 
