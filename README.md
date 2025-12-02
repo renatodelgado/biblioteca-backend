@@ -108,7 +108,7 @@ Use ferramentas como:
 -   Insomnia
 -   Thunder Client (VSCode)
 -   `curl` no terminal
--   App frontend criado com React Native e Expo Go, também presente no meu repositório
+-   App frontend criado com React Native e Expo Go, também presente no meu repositório (https://github.com/renatodelgado/biblioteca-mobile/)
 
 Servidor roda por padrão em:
 
